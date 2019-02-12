@@ -25,6 +25,7 @@ public class MailReceiverServiceTest extends BaseTest {
         for (Message message : messages){
             System.out.println("====================================================");
             System.out.println(message.getSubject());
+            System.out.println(message.getFrom()[0].toString());
             Object content = message.getContent();
             if (content instanceof String){
                 System.out.println(content);
