@@ -16,7 +16,7 @@ public class MailSenderServiceTest extends BaseTest {
 
     @Test
     public void sendMailTest(){
-        mailSenderService.sendMessage("995517265@qq.com","验证码","验证码为：Hello World");
+        mailSenderService.sendMessage("496963664@qq.com","验证码","验证码为：Hello World");
     }
 
 }
